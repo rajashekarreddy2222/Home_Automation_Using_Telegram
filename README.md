@@ -1,11 +1,12 @@
 # home_automation_using_telegram_bots
 Author VUYYURU RAJA SHEKAR REDDY 
-
+please read carefully and perform action
+how use raspberry pi goto youtube check videos
 
 1.first install rasbian os into raspberry pi
-
+ check the link https://www.youtube.com/watch?v=pqTsMWI_noA
 update your os to latest version by following commands
-$ sudo apt update /n
+$ sudo apt update  
 $ sudo apt dist-upgrade
 
 Requirements:
@@ -32,9 +33,44 @@ $ sudo dpkg -i node_latest_armhf.deb
 
 Installing NPM(Node Pakage manager)
 $ sudo apt install npm
-$ git clone https://github.com/rajashekarreddy2222/home_automation_using_telegram_bots.git
-$ cd home_automation_using_telegram_bots
+$ git clone https://github.com/KLGLUG/Home_Automation_Using_Telegram.git
+$ cd Home_Automation_Using_Telegram
+important step this should be run only in code directory
 $ npm install node-dht-sensor onoff node-telegram-bot
+
+
+goto to bot creation:
+creating bot in Telegram:
+  We can do a lot of stuff with bots. The first step in creating our bot is to talk to the BotFather
+
+  Type in the search form BotFather.
+  
+  Click on the BotFather and a chat container will be opened so we can chat with him. 
+  Hit the start button which will display a list of commands that we can use to interact with the BotFather.
+ 
+ Let’s create our bot using the command 
+ /newbot 
+ It is going to ask for a name for our bot, so we’ll call our bot RajaBot.
+ 
+ Now we have to register for a username, note: it must end in bot, If our bot is named RajaBot the username must be rajabot.
+ 
+  
+ BotFather will congratulate us, and give a link to our bot telegram.me/raja_bot.
+ Using one of the commands above, we can make various changes to our bot. 
+ But, right now, the most important command is /token, as it will give us an API token to access our bot through HTTPS. Go ahead and type that now:
+ 
+ 
+ /token
+ 
+ 
+ 
+ 
+ 
+ The return value will look something like this: 197372558:AAEtvechentOstoPmVyb1_aF2Dbe7k
+
+
+
+
 
 The available commands are:
 
@@ -51,42 +87,9 @@ Telegram bots are public, that means that every user can send messages to them.
  
 
  $ sudo node user.js
- $sudo node bot.js
+ $ sudo node bot.js
   
   
-creating bot in Telegram:
-  We can do a lot of stuff with bots. The first step in creating our bot is to talk to the BotFather
-
-  
-  Type in the search form BotFather.
-  
-  Click on the BotFather and a chat container will be opened so we can chat with him. 
-  Hit the start button which will display a list of commands that we can use to interact with the BotFather.
- 
- Let’s create our bot using the command 
- /newbot 
- It is going to ask for a name for our bot, so we’ll call our bot RajaBot.
- 
- Now we have to register for a username, note: it must end in bot, If our bot is named RajaBot the username must be rajabot.
- 
- 
- 
- 
- 
- 
- 
- BotFather will congratulate us, and give a link to our bot telegram.me/raja_bot.
- Using one of the commands above, we can make various changes to our bot. 
- But, right now, the most important command is /token, as it will give us an API token to access our bot through HTTPS. Go ahead and type that now:
- 
- 
- /token
- 
- 
- 
- 
- 
- The return value will look something like this: 197372558:AAEtvechentOstoPmVyb1_aF2Dbe7k
 
 
 
