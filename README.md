@@ -4,7 +4,14 @@ please read carefully and perform action
 how use raspberry pi goto youtube check videos
 
 1.first install rasbian os into raspberry pi
- check the link https://www.youtube.com/watch?v=pqTsMWI_noA
+
+
+
+check the link https://www.youtube.com/watch?v=pqTsMWI_noA
+
+
+
+
 update your os to latest version by following commands
 $ sudo apt update  
 $ sudo apt dist-upgrade
