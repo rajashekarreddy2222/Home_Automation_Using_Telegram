@@ -94,7 +94,7 @@ $ sudo apt install npm
 
 
 
-$ git clone https://github.com/KLGLUG/Home_Automation_Using_Telegram.git
+$ git clone https://github.com/rajashekarreddy2222/Home_Automation_Using_Telegram.git
 
 
 
