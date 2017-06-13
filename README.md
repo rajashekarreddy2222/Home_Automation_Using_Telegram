@@ -13,42 +13,110 @@ check the link https://www.youtube.com/watch?v=pqTsMWI_noA
 
 
 update your os to latest version by following commands
+
+
+
 $ sudo apt update  
+
+
+
+
 $ sudo apt dist-upgrade
 
+
+
 Requirements:
+
+
+
 C library for Broadcom BCM 2835 as used in Raspberry Pi
 This is a C library for Raspberry Pi (RPi). It provides access to GPIO and other IO functions on the Broadcom BCM 2835 chip, as used in the RaspberryPi, allowing access to the GPIO pins on the 26 pin IDE plug on the RPi board so you can control and interface with various external devices.
 
 $ sudo su
+
+
+
 $ mkdir project 
+
+
+
 $ cd project
+
+
+
 $ wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.50.tar.gz
+
+
+
 $ tar -xvzf bcm2835-1.50.tar.gz
+
+
+
 $ cd bcm2835-1.50/
+
+
+
 $ ./configure
+
+
+
 $  make
+
+
+
 $  sudo make check
+
+
+
 $ make install
 
  
 
 
 Installing Nodejs 
+
+
+
 $ wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
+
+
+
+
 $ sudo dpkg -i node_latest_armhf.deb
 
+
+
 Installing NPM(Node Pakage manager)
+
+
+
 $ sudo apt install npm
+
+
+
 $ git clone https://github.com/KLGLUG/Home_Automation_Using_Telegram.git
+
+
+
 $ cd Home_Automation_Using_Telegram
+
+
+
 important step this should be run only in code directory
+
+
+
 $ npm install node-dht-sensor onoff node-telegram-bot
 
 
+
 goto to bot creation:
+
+
 creating bot in Telegram:
-  We can do a lot of stuff with bots. The first step in creating our bot is to talk to the BotFather
+
+
+We can do a lot of stuff with bots. The first step in creating our bot is to talk to the BotFather
 
   Type in the search form BotFather.
   
@@ -94,6 +162,10 @@ Telegram bots are public, that means that every user can send messages to them.
  
 
  $ sudo node user.js
+
+
+
+
  $ sudo node bot.js
   
   
